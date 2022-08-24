@@ -6,5 +6,5 @@
 	// Thus the launchDay below denotes 7 May, 2014.
 	
 var newYear = new Date(); 
-newYear = new Date(2023, 1-1, 21);
+newYear = new Date(2022, 12-1, 21);
 $('.defaultCountdown').countdown({until: newYear, format: 'DHMS'});
